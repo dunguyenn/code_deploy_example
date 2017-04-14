@@ -26,7 +26,8 @@ sed -i "s/sleep(.*)/sleep(10)/" install
 
 service codedeploy-agent status 
 
-5.) codedeploy-agent install 
+5.) codedeploy-agent install
+
 [centos@ip-10-248-37-11 ~]$ wget https://aws-codedeploy-ap-southeast-1.s3.amazonaws.com/latest/install
 
 [centos@ip-10-248-37-11 ~]$ chmod +x ./install
